@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio para ejemplo</title>
+	<!-- Estilos y fuentes relacionados con la página -->
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<!-- Plugin LiveReload -->
+<!-- 	<script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+-->
+<!-- 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+</head>
+<body>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<span class="brand-text-main">Enrique</span> Avivar
+				</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#" id="home-anchor">Inicio</a></li>
+					<li><a href="#about-me" id="about-me-anchor">Sobre mí</a></li>
+					<li><a href="#portfolio" id="portfolio-anchor">Portfolio</a></li>
+					<li><a href="#blog" id="blog-anchor">Blog</a></li>
+					<li><a href="#contact" id="contact-anchor">Contacto</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+
+	<!-- Hero section inicial -->
+	<div class="section" id="hero-section">
+		<div class="container text-center" id="hero-text">
+			<h1>Portfolio dividido en varias secciones</h1>
+			<h2>Esta sección es un hero section</h2>
+			<a href="#" class="btn btn-lg btn-hero" id="btn-hero">Ver más</a>
+		</div>
+	</div>
+	
+	<!-- Sobre mí -->
+	<div class="section" id="about-me">
+		<div class="container">
+			<h1 class="text-center title">Sobre mí</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit mauris sagittis magna tincidunt, in rutrum sapien accumsan. Fusce et commodo urna. Sed ac iaculis risus. Sed non metus sed mi laoreet pulvinar eget aliquet metus. Sed tincidunt aliquam dui, at viverra diam blandit a. Suspendisse eu pharetra lorem, in auctor enim. Vivamus iaculis a massa et pretium. Nulla ornare sem viverra nisi molestie, et imperdiet nulla volutpat. Donec auctor risus ut arcu maximus tincidunt. Curabitur nibh lacus, cursus nec sagittis at, mattis et sem. Cras quam nisl, tincidunt vitae sapien eget, dapibus mollis magna. Curabitur lacinia mauris arcu, in porttitor enim fermentum non.
+			</p>
+			<p>
+				Praesent risus tellus, eleifend sodales vestibulum vel, sollicitudin sagittis lectus. Vivamus tincidunt egestas enim, quis mattis sem posuere nec. Donec eu tincidunt ipsum. Donec accumsan erat ac consequat tempor. Curabitur condimentum justo sed neque faucibus dictum. Quisque rutrum, mi id mollis laoreet, nulla enim rhoncus mauris, at consequat dui felis volutpat nunc. Integer gravida mauris id feugiat porttitor. Sed faucibus turpis vel neque malesuada, eget faucibus libero fringilla. Sed vel libero bibendum ante lacinia tempor. Donec mattis diam odio, fermentum tempor leo ultricies ut. In nec lectus ac lacus pharetra elementum porta sit amet justo. Aenean ornare nulla mi, sit amet porttitor orci aliquam mollis.
+			</p>
+
+		</div>
+	</div>
+
+	<!-- Portfolio con mis trabajos -->
+	<div class="section" id="portfolio">
+		
+		<div class="container">
+			
+			<h1 class="text-center title">
+				Portfolio
+			</h1>
+			<div class="row-cards">
+				<div class="card" style="background-color: red;">
+					<h3>Trabajo 1</h3>
+					<img class="img-responsive" src="img/background-hero.jpg">
+					<p>Un trabajo realizado usando HTML y CSS
+
+					Segunda línea para que tenga más contenido y a ver cómo se adapta la cosa</p>
+					<button class="btn btn-primary" data-toggle="modal" data-target="#modalPortfolio">Ver más</button>
+				</div>
+				<div class="card">
+					<h3>Trabajo 1</h3>
+					<img class="img-responsive" src="img/background-hero.jpg">
+					<p>Un trabajo realizado usando HTML y CSS</p>
+					<a class="btn btn-primary" href="#">Ver más</a>
+				</div>
+				<div class="card">
+					<h3>Trabajo 1</h3>
+					<img class="img-responsive" src="img/background-hero.jpg">
+					<p>Un trabajo realizado usando HTML y CSS</p>
+					<a class="btn btn-primary" href="#">Ver más</a>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	
+	<!-- Blog personal -->
+	<div class="section" id="blog">
+		<div class="container">
+			<h1 class="text-center title">Blog</h1>
+			<div class="row">
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="blog-card">
+						<img class="img img-responsive" src="img/background-hero.jpg" alt="entrada de blog">
+						<h3>Entrada de blog</h3>
+						<div class="blog-date">
+							12 de abril de 2018
+						</div>
+						<hr>
+						<p>Una entrada de blog a ver como se comporta el estilo</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="blog-card">
+						<img class="img img-responsive" src="img/background-hero.jpg" alt="entrada de blog">
+						<h3>Otra entrada</h3>
+						<div class="blog-date">
+							12 de abril de 2018
+						</div>
+						<hr>
+						<p>Otro contenido diferente que va a romper con la dinámica de la página. Voy a rellenarlo con varias líneas a ver qué pasa.</p>
+					</div>
+				</div>
+			</div>
+			<a href="blog.html" class="btn btn-lg">Todas las entradas</a>
+		</div>
+	</div>
+
+	<!-- Información de contacto -->
+	<div class="section" id="contact">
+		<div class="container">
+			<h1 class="text-center title">Contacto</h1>
+			<div class="row">
+				<div class="col-md-8">
+					<h2>Contacta conmigo</h2>
+					<p>
+						Entra en contacto conmigo si tienes alguna duda, sugerencia o oferta de trabajo (jeje).
+					</p>
+					<p>
+						Si tardo en ponerme en contacto lo más probable es que esté ocupado organizando mi vida.
+					</p>
+					<form>
+						<!-- Text input-->
+						<div class="form-group col-md-6 half-form">
+							<label class=" control-label" for="email">Email</label>  
+							<input id="email" name="email" type="email" placeholder="Email" class="form-control input-md" required>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group col-md-6 half-form">
+							<label class="control-label" for="nombre">Nombre</label>  
+							<input id="nombre" name="nombre" type="text" placeholder="Nombre" class="form-control input-md" required>
+						</div>
+
+						<!-- Textarea -->
+						<div class="form-group">
+							<label class="col-md-4 control-label" for="texto">Tu consulta aquí</label>
+							<textarea placeholder="Tu consulta de hasta 250 caracteres" rows="10" class="form-control" id="texto" name="texto"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-4">
+					<h2>RRSS</h2>
+					<a class="social-media" id="twitter">
+						Twitter <br>
+						<i class="fab fa-2x fa-twitter"></i>
+					</a><a class="social-media" id="facebook">
+						Facebook <br><i class="fab fa-2x fa-facebook"></i>
+					</a><a class="social-media" id="instagram-background">
+						<div id="instagram">
+							Instagram<br> <i class="fab fa-2x fa-instagram"></i>
+						</div>
+					</a><a class="social-media" id="linkedin">
+						Linkedin <br><i class="fab fa-2x fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<p>Licencias y agradecimientos</p>
+			<a href='https://www.freepik.com/free-vector/worldwide-connection-blue-background-illustration-vector_3439367.htm'>Imagen de fondo</a>
+			<p>Agradecimiento especial a Instagram por poner un degradado en su logo y hacerlo todo más difícil para todos</p>
+		</div>
+		
+	</footer>
+
+	<!-- Modals -->
+	<!-- Modal -->
+	<div id="modalPortfolio" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Proyecto 1</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-6">
+							<img class="img img-responsive" src="img/background-hero.jpg">
+						</div>
+						<div class="col-md-6">
+							<h3>Trabajo 1</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius felis massa, vel consectetur urna commodo vulputate. Sed non ex arcu. Nam et aliquet nisl. Proin in nunc in diam volutpat scelerisque eget eu neque. Duis porta fringilla risus vitae maximus. Mauris rutrum metus eros, quis semper ante consectetur quis.
+							</p>
+							<a href="#">Ir al sitio</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Scripts y librerías -->
+	<script type="text/javascript" src="lib/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
